@@ -11,6 +11,9 @@
 		DC62245429DCA03D00679B22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62245329DCA03D00679B22 /* ContentView.swift */; };
 		DC62245629DCA03E00679B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC62245529DCA03E00679B22 /* Assets.xcassets */; };
 		DC62245929DCA03E00679B22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC62245829DCA03E00679B22 /* Preview Assets.xcassets */; };
+		DC62246029DCA4A500679B22 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62245F29DCA4A500679B22 /* Dog.swift */; };
+		DC62246229DCA53500679B22 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62246129DCA53500679B22 /* Cat.swift */; };
+		DC62246429DCA65000679B22 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62246329DCA65000679B22 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DC62245329DCA03D00679B22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC62245529DCA03E00679B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC62245829DCA03E00679B22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC62245F29DCA4A500679B22 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		DC62246129DCA53500679B22 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		DC62246329DCA65000679B22 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				DC62245129DCA03D00679B22 /* SwiftUINavigationApp.swift */,
+				DC62245F29DCA4A500679B22 /* Dog.swift */,
+				DC62246129DCA53500679B22 /* Cat.swift */,
+				DC62246329DCA65000679B22 /* SecondView.swift */,
 				DC62245329DCA03D00679B22 /* ContentView.swift */,
 				DC62245529DCA03E00679B22 /* Assets.xcassets */,
 				DC62245729DCA03E00679B22 /* Preview Content */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC62246229DCA53500679B22 /* Cat.swift in Sources */,
+				DC62246429DCA65000679B22 /* SecondView.swift in Sources */,
 				DC62245429DCA03D00679B22 /* ContentView.swift in Sources */,
 				DC62245229DCA03D00679B22 /* SwiftUINavigationApp.swift in Sources */,
+				DC62246029DCA4A500679B22 /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
